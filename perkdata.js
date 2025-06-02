@@ -1,3 +1,12 @@
+/*
+[
+	perk_id,
+	perk_name,
+ 	perk_type,
+  	perk_description,
+   	perk_image_position: [ x , y ] (on a grid starting at the top-left at 0,0)
+ ]
+*/
 const tcm__perkData = [
 	/*victim perks*/
 	[1,"attribute point","attribute","Awards an extra attribute point to add in your character loadout.",[9,11]],
