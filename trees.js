@@ -1,3 +1,18 @@
+/*
+character_name:
+[
+	node_1: [
+ 		x_pos, (starts at 0, at left of 'map')
+   		y_pos, (starts at 0, at bottom of 'map')
+     		branch_configuration, (up-right-down-left, 0=don't draw, 1=draw),
+       		perk_id, (0=just branches, 1=attribute point, 2=arrows)
+	 	branch_group_id (tells code what nodes to select together)
+	],
+ 	node_n: [
+  		...
+    	]
+]
+*/
 const tcm__treeData =
 {
 	'connie': [
