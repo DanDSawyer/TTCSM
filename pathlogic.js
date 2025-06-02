@@ -1,3 +1,25 @@
+/*
+character_name:
+[
+	logic_1:
+ 	[
+  		x_pos,
+    		y_pos,
+      			(this is the x,y position of a 'node' defined in trees.js, which becomes 'selectable')
+	 	node_groups_to_select:
+   		[
+     			node_id_1, ..., node_id_n
+		],
+  		direction_node_became_active_from (1=left, 2=bottom, 3=right)
+    			('selectable nodes' can become active from multiple directions,
+			this ensures they don't accidentally become active from the wrong direction)
+ 	],
+  	logic_n:
+   	[
+    		...
+    	]
+]
+*/
 const tcm__selectableNodes = {
 	'connie':[
 		[10,0,[0],2],
